@@ -1,15 +1,7 @@
 using System.Collections.Generic;
 
-namespace TestPharaohs
+namespace Model
 {
-    public enum Dynasty
-    {
-        First,
-        Second,
-        Third,
-        Fourth,
-        Fifth
-    }
     public class Pharaoh
     {
         public string Name { get; set; }
