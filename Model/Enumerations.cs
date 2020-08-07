@@ -2,11 +2,14 @@ namespace Model
 {
     public enum Dynasty
     {
-        First,
-        Second,
-        Third,
-        Fourth,
-        Fifth
+        JulioClaudian,
+        Flavian,
+        NervaAntonine,
+        Severan,
+        Gordian,
+        Constantinian,
+        Valentinian,
+        Theodosian
     }
 
     public enum LogicalConjunction { And, Or }
