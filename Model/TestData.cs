@@ -5,8 +5,8 @@ namespace Model
     public class Emperor
     {
         public string Name { get; set; }
-        public int StartOfReign { get; set; } // BC
-        public int EndOfReign { get; set; } // BC
+        public int StartOfReign { get; set; } // AD
+        public int EndOfReign { get; set; } // AD
         public Dynasty Dynasty { get; set; }
 
         public static List<Emperor> GetEmperorsList()
