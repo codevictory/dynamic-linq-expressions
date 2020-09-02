@@ -11,6 +11,7 @@ Needed dependencies:
 Commands to run:
 ```
 $ dotnet build
+$ cd Application/
 $ dotnet run
 ```
 
